@@ -1,7 +1,7 @@
 export const Header = () => {
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-BLACK">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,7 +35,7 @@ export const Header = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-3xl tracking-widest">Bishtaar</a>
+          <a className="btn btn-ghost text-3xl text-white tracking-widest">Bishtaar</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -51,8 +51,10 @@ export const Header = () => {
           </ul>
         </div>
         <div className="navbar-end flex gap-8 mr-2">
-          <a href="">Login</a>
-          <a className="btn btn-neutral">Sign Up</a>
+          <a href="/login">Login</a>
+          <a href="/" className="btn text-white btn-neutral">
+            Sign Up
+          </a>
         </div>
       </div>
     </>

@@ -37,7 +37,7 @@ export const Login = () => {
                   required
                 />
                 <label className="label">
-                  <a href="#" className="label-text-alt link link-hover">
+                  <a href="/" className="label-text-alt link link-hover">
                     <span>Don't have an account ?</span> Signup
                   </a>
                 </label>
